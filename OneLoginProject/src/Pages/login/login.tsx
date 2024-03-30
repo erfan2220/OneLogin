@@ -27,7 +27,8 @@ const Login = () =>
             })
             .then(data => {
                 // Assuming the API returns a token
-                const token = data.token;
+                const token = data.toekn;
+                console.log("jsdhfkjsdhf",token)
                 setLogin(!login);
             })
             .catch(error => {
